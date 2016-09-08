@@ -1,0 +1,18 @@
+//行为树理论
+http://www.gameres.com/thread_384827_1_1.html
+
+https://zhuanlan.zhihu.com/p/19890016
+
+http://aigamedev.com/insider/presentation/behavior-trees/
+
+//行为树开源代码
+
+https://github.com/f15gdsy/BT-Test
+
+
+专为Unity3D打造的AI行为树,包括ai编辑器
+相关的博客文章地址为: http://www.luzexi.com/ 
+https://github.com/luzexi/Unity3DAIBehaviorTree
+
+
+
