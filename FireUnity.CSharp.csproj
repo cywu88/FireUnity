@@ -58,17 +58,39 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="FireUnity.CSharp.Plugins.csproj">
+      <Project>{A10B936D-EB66-9FD1-9185-CE0B11CA7441}</Project>
+      <Name>FireUnity.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\CharacterCustomization\DressingroomExample\Glow\GlowEffect.cs" />
+    <Compile Include="Assets\CharacterCustomization\DressingroomExample\Glow\ImageEffects.cs" />
+    <Compile Include="Assets\CharacterCustomization\DressingroomExample\Main.cs" />
+    <Compile Include="Assets\CharacterCustomization\DressingroomExample\MirrorReflection\MirrorReflection.cs" />
+    <Compile Include="Assets\Scrip\Create.cs" />
+    <Compile Include="Assets\Scrip\iTween.cs" />
     <Compile Include="Assets\Scripts\CommonFSM\BaseGameEntity.cs" />
     <Compile Include="Assets\Scripts\CommonFSM\EntityManager.cs" />
     <Compile Include="Assets\Scripts\CommonFSM\MessageDispatcher.cs" />
     <Compile Include="Assets\Scripts\CommonFSM\State.cs" />
     <Compile Include="Assets\Scripts\CommonFSM\StateMachine.cs" />
     <Compile Include="Assets\Scripts\CommonFSM\Telegram.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\CharacterCustomization\DressingroomExample\Glow\GlowEffectDownsample.shader" />
+    <None Include="Assets\CharacterCustomization\DressingroomExample\MirrorReflection\MirrorReflection.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
